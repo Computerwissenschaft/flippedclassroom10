@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=DREIECK()
+comment0.text=\nErzeugt\ ein\ neues\ Dreieck\ mit\ einer\ Standardposition\ und\ einer\nStandardf\u00B8llfarbe.\ Das\ zugeh\u02C6rige\ Symbol\ wird\ sofort\ angezeigt.\n\n
+comment1.params=NeuesX\ NeuesY
+comment1.target=void\ PositionSetzen(int,\ int)
+comment1.text=\nDie\ Position\ (obere\ Spitze)\ dieses\ Dreiecks\nauf\ die\ neuen\ Werte\ setzen.\n\n
+comment2.params=neueBreite\ neueHoehe
+comment2.target=void\ GroesseSetzen(int,\ int)
+comment2.text=\nDie\ Gr\u02C6\uFB02e\ dieses\ Dreiecks\ auf\ die\ neue\ Breite\ \nund\ die\ neue\ H\u02C6he\ setzen.\ \n\n
+comment3.params=neueFarbe
+comment3.target=void\ FarbeSetzen(String)
+comment3.text=\nDie\ F\u00B8llfarbe\ dieses\ Dreiecks\ auf\ 'neueFarbe'\ setzen.\ \nErlaubte\ Parameterwerte\ sind\:\n"rot",\ "gruen",\ "blau",\ "gelb",\ "cyan",\ "magenta",\ "schwarz",\ "weiss"\n"hellgelb",\ "hellgruen",\ "orange",\ "braun"\n\n
+comment4.params=neueSichtbarkeit
+comment4.target=void\ SichtbarSetzen(boolean)
+comment4.text=\nDie\ Sichtbarkeit\ dieses\ Dreiecks\ ein-\ oder\ ausschalten.\nErlaubte\ Parameterwerte\:\ true,\ false\n\n
+comment5.target=void\ Zeichnen()
+comment5.text=\nZeichne\ f\u00B8r\ dieses\ Dreieck\ ein\ entsprechendes\ Grafiksymbol\nin\ dem\ Grafikfenster.\nNach\ jeder\ \u0192nderung\ muss\ das\ Dreieck\ diese\ \u0192nderung\ seinem\ \nGrafiksymbol\ mitteilen.\n\n
+numComments=6

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=ZEICHENFLAECHE()
+comment0.text=\nKonstruktor\ der\ Klasse\ ZEICHENFLAECHE\ \n\nErstellt\ ein\ Fenster\ (JFrame),\ dessen\ Innenbereich\ von\ einer\nwei\uFB02en\ Malfl\u2030che\ ausgef\u00B8llt\ wird.\nAls\ Malfl\u2030che\ dient\ ein\ Objekt\ der\ Unterklasse\ MalPanel\ von\ JPanel.\nDas\ Zeichnen\ erfolgt\ nicht\ direkt\ auf\ dieser\ Malfl\u2030che\ sondern\nauf\ einem\ Hintergrundbild,\ das\ dann\ zur\ Anzeige\ im\ Ganzen\nauf\ die\ Malfl\u2030che\ kopiert\ wird.\n\n
+comment1.target=ZEICHENFLAECHE\ ObjektGeben()
+comment1.text=\nFabrikmethode.\ Liefert\ eine\ Referenz\ auf\ das\ einzige\ Objekt\ der\ Klasse\nZEICHENFLAECHE\ zur\u00B8ck.\ Wenn\ es\ noch\ nicht\ existiert,\ dann\ wird\ es\ erzeugt.\n\n
+comment2.params=was
+comment2.target=int\ anmelden(SymbolArt)
+comment2.text=\nJede\ Figur\ muss\ sich\ beim\ Grafikfenster\ anmelden,\ndamit\ ihr\ Grafiksymbol\ in\ die\ Liste\ der\ zu\ zeichnenden\nSymbole\ aufgenommen\ wird.\n\n@return\ eindeutige\ ID\ des\ zugeordneten\ Grafiksymbols\n\n
+comment3.params=kennung\ aktX\ aktY\ aktBreite\ aktHoehe\ aktFarbe\ aktSichtbar
+comment3.target=void\ zeichnen(int,\ int,\ int,\ int,\ int,\ String,\ boolean)
+comment3.text=\nGrafiksymbol\ vor\ der\ Zeichnung\ anpassen\n\nWenn\ sich\ an\ einer\ Figur\ etwas\ \u2030ndert,\ dann\ muss\ die\ Figur\ndiese\ \u0192nderung\ seinem\ Grafiksysmbol\ mitteilen.\ Das\ Grafiksymbol\nveranlasst\ dann,\ wenn\ erforderlich,\ ein\ neues\ Zeichnen.\nEin\ sinngerechterer\ Name\ f\u00B8r\ diese\ Methode\ w\u2030re\ \u0192nderungMitteilen().\n\n
+comment4.target=void\ alleZeichnen()
+comment4.text=Zeichnet\ alle\ Grafiksymbole\ auf\ das\ Hintergrundbild\n\n
+comment5.target=void\ loeschen()
+comment5.text=Das\ gesamte\ Hintergrundbild\ l\u02C6schen\n\n
+comment6.params=farbname
+comment6.target=void\ zeichenfarbeSetzen(String)
+comment6.text=Die\ Zeichenfarbe\ f\u00B8r\ das\ Hintergrundbild\ setzen\n\n@param\ farbName\nName\ der\ Zeichenfarbe\n\n
+numComments=7
