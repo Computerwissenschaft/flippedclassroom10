@@ -1,5 +1,5 @@
 
-  * Präsentation erstellen
+  * Präsentation in Jessyink auf inkscape erstellen
   * Audio aufzeichnen
   * Audacity -> Normalisieren -> Zusammenschneiden -> Exportieren
   * Audio abspielen und mit gtk-recordMyDesktop screencast (audioquelle: pulse!) aufzeichnen
